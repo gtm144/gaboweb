@@ -1,0 +1,67 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.portada {
+	background-image: url('../images/port.png');
+  background-size: 290px 290px;
+  background-position: 50% 10%;
+  background-repeat: no-repeat;
+  background-color: RGB(58,108,96);
+  position: fixed;
+  left: 65%;
+  top: 0%;
+  height:100%;
+  float:right;
+  animation: arriba;
+  animation-duration:2s;
+}
+
+.intern{
+  text-align: center;
+  position: relative;
+  top: 55%;
+  color: white;
+
+}
+.header {
+  position: relative;
+}
+.contenedor{
+  left: 2%;
+  width: 73%;
+  top: 0%;
+  position: relative;
+  text-align: justify;
+
+}
+.titulo-a {
+  text-align: center;
+}
+.button {
+  border-radius: 15px;
+  border: none;
+  background: white;
+  color: RGB(58,108,96);
+  padding: 7px;
+  margin-bottom: 40px;
+
+}
+
+.redes_sociales{
+  position: fixed;
+  left: 57.5%;
+  top: 40%;
+}
+
+.redes_sociales ul{
+  list-style: none;
+  line-height: 60px;
+}

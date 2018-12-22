@@ -1,0 +1,124 @@
+
+@keyframes mymove {
+  0% {opacity: 0;}
+}
+
+@keyframes arriba {
+    0% {top: 600px;}
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0px;
+}
+
+.portada {
+
+  background-repeat: no-repeat;
+  background-color: RGB(58,108,96);
+  position: fixed;
+  left: 65%;
+  top: 0%;
+  height:100%;
+  float:right;
+  animation: arriba;
+  animation-duration:2s;
+}
+
+
+.intern{
+  text-align: center;
+  color: white;
+  padding: 40px;
+  top: 55%;
+
+}
+
+.button {
+  border-radius: 15px;
+  border: 1px solid RGB(58,108,96);
+  background: white;
+  color: RGB(58,108,96);
+  padding: 7px;
+  margin-bottom: 40px;
+}
+
+.button:hover {
+  background-color: RGB(58,108,96);
+  color: white;
+}
+
+
+.contenedor{
+  left: 2%;
+  width: 73%;
+  top: 0%;
+  position: relative;
+  text-align: justify;
+
+}
+
+.title-b{
+  color: RGB(58,108,96);
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+
+article{
+  margin-top: 15%;
+  margin-bottom: 10%;
+  animation: mymove;
+  animation-duration:4s;
+}
+
+.texto{
+  line-height: 30px;
+  font-size: 16px;
+  padding: 0;
+  justify-content: center;
+}
+
+.contenedor li{
+  list-style: none;
+  text-align: center;
+  padding-right: 50%;
+  line-height: 50px;
+}
+.contenedor li:before{
+  content: '∘';
+  font-size: 25px;
+  line-height: 20px;
+  color: RGB(58,108,96);
+  padding-right: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+td {
+  padding: 20px;
+}
+
+.col1{
+  color: RGB(58,108,96);
+}
+
+.redes_sociales{
+  position: fixed;
+  left: 3%;
+  top: 5%;
+}
+
+
